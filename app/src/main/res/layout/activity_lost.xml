@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lost">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button"
+            android:text="Submit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

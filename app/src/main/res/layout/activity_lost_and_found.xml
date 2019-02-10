@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lostAndFound">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="201dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="Lost"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:text="Found"
+            android:textColor="#F44336" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

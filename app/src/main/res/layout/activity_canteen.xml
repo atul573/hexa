@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".canteen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:text="Food Items:-"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="393dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:entries="@array/can"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food1"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food2"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food3"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food4"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food5"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Food6"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/button"
+            android:text="Submit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

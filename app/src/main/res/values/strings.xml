@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">collegeConnect</string>
+    <array name="can">
+        <item>Select Category</item>
+        <item>fast food</item>
+        <item>Punjabi</item>
+    </array>
+</resources>
